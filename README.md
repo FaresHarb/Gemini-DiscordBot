@@ -90,8 +90,6 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 This means you are free to use, modify, and distribute this software, but any derivative works must also be licensed under GPL v3.0 and made available as open source.
 
-[Specify your license here]
-
 ---
 
 **Note:** Keep your tokens and API keys secure and never commit them to version control. Consider using environment variables for production deployments.
