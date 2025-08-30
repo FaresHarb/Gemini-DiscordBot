@@ -1,0 +1,10 @@
+{
+    "token": "YOUR DISCORD BOT TOKEN GOES HERE",
+    "clientId": "YOUR DISCORD BOT APLLICATION ID GOES HERE",
+    "googleAiApiKey": "YOUR GEMINI API KEY GOES HERE",
+
+
+    "_Comment": "Set the channelId to 0 if you want the bot to respond to every message in every channel",
+
+    "channelId": 0
+}
