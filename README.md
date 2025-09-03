@@ -1,6 +1,6 @@
 # Discord Gemini Bot
 
-A Discord bot powered by Google's Gemini AI API that brings advanced conversational AI capabilities to your Discord server.
+🤖 A powerful Discord bot that integrates Google's Gemini AI to bring intelligent conversations directly to your Discord server. Chat with cutting-edge AI technology seamlessly within your community!
 
 ## Prerequisites
 
@@ -32,19 +32,31 @@ Before running this bot, make sure you have:
    - Go to the "General Information" section and copy your Client ID
 
 2. **Get your Google AI API Key**
-   - Visit [Google AI Studio](https://aistudio.google.com/apikey)
+   - Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
    - Create a new API key or use an existing one
 
 3. **Configure the bot**
    - Open the `config.js` file in your project directory
-   - Replace the placeholder values with your actual credentials
+   - Replace the placeholder values with your actual credentials:
+   ```javascript
+   module.exports = {
+     token: 'YOUR_DISCORD_BOT_TOKEN',
+     clientId: 'YOUR_DISCORD_CLIENT_ID',
+     googleApiKey: 'YOUR_GOOGLE_AI_API_KEY'
+   };
+   ```
 
 ## Running the Bot
 
-Start the bot with the following command:
-```bash
-node index.js
-```
+1. **First time setup - Deploy commands** (only needed once):
+   ```bash
+   node deploy-commands.js
+   ```
+
+2. **Start the bot**:
+   ```bash
+   node index.js
+   ```
 
 If everything is configured correctly, you should see a message indicating that the bot is online.
 
@@ -53,6 +65,7 @@ If everything is configured correctly, you should see a message indicating that 
 Make sure your bot has the following permissions in your Discord server:
 - Send Messages
 - Read Message History
+- Use Slash Commands (if applicable)
 
 ## Inviting the Bot to Your Server
 
@@ -68,6 +81,7 @@ Make sure your bot has the following permissions in your Discord server:
 
 - AI-powered conversations using Google's Gemini model
 - Discord integration for seamless chat experience
+- [Add any specific features your bot has]
 
 ## Troubleshooting
 
@@ -89,6 +103,10 @@ Feel free to submit issues and enhancement requests!
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
 
 This means you are free to use, modify, and distribute this software, but any derivative works must also be licensed under GPL v3.0 and made available as open source.
+
+## Support
+
+If you need help or have questions, please [create an issue](link-to-your-issues-page) or contact [your contact information].
 
 ---
 
