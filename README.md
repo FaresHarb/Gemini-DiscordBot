@@ -81,7 +81,6 @@ Make sure your bot has the following permissions in your Discord server:
 
 - AI-powered conversations using Google's Gemini model
 - Discord integration for seamless chat experience
-- [Add any specific features your bot has]
 
 ## Troubleshooting
 
